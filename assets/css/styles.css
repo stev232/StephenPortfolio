@@ -19,7 +19,7 @@ body {
 
 header {
     background-color: var(--teal);
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     height: var(--hfHeight);
@@ -54,7 +54,7 @@ main {
     display: block;
 }
 
-.about, .portfolio {
+.about, .portfolio, .contact {
     align-content: flex-start;
     display: flex;
     flex-direction: row;
@@ -63,16 +63,16 @@ main {
     padding-right: var(--edgePadding);
 }
 
-.about .aboutContent, .portfolio .portfolioContent {
+.about .aboutContent, .portfolio .portfolioContent, .contact .contactContent {
     align-self: end;
 }
 
-.aboutHeading, .portfolioHeading {
+.aboutHeading, .portfolioHeading, .contactHeading {
     font-size: 22px;
     width: 10%;
 }
 
-.aboutContent, .portfolioContent {
+.aboutContent, .portfolioContent, .contactContent {
     font-size: 18px;
     width: 88%;
 }
@@ -82,7 +82,7 @@ main {
     width: 25%;
 }
 
-.portfolio {
+.portfolio, .contact {
     border-top: solid black;
 }
 
@@ -90,15 +90,12 @@ main {
     width: 100%;
 }
 
-.contact {
-    border-top: solid black;
-}
-
 footer {
     align-items: center;
     background-color: var(--teal);
     display: flex;
     font-size: 18px;
+    justify-content: space-around;
     height: var(--hfHeight);
     margin-top: 20px;
     width: 100%;
@@ -106,5 +103,4 @@ footer {
 
 footer p {
     font-size: 18px;
-    padding-left: var(--edgePadding);
 }
