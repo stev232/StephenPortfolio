@@ -1,6 +1,8 @@
 :root {
     --teal: #00b3b3;
     --silver: #c0c0c0;
+    --edgePadding: 25px;
+    --hfHeight: 125px;
 }
 
 * {
@@ -9,61 +11,82 @@
 }
 
 body {
+    background-color: black;
     display: block;
     margin: 0px;
     width: 100vw;
 }
 
 header {
-    align-items: center;
     background-color: var(--teal);
-    display: flex;
-    height: 75px;
-    margin: 0px;
-    width: 100vw;
+    height: var(--hfHeight);
+    width: 100%;
 }
 
-header h1, nav, ul {
-    display: inline;
+header .header {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    justify-content: center;
+    padding-left: var(--edgePadding);
+    padding-right: var(--edgePadding);
 }
 
 header h1 {
-    padding-left: 25px;
-}
-
-header ul {
-    position: relative;
-    justify-content: end;
-}
-
-header li { 
-    display: inline;
-    padding: 5px;
+    font-size: 36px;
 }
 
 main {
     background-color: var(--silver);
     display: block;
-    margin-top: 120px;
+    margin-top: 20px;
+    width: 100%;
 }
 
-.about, .portfolio {
+.content {
     display: block;
 }
 
-.aboutHeading, .aboutContent, .portfolioHeading, .portfolioContent {
-    display: inline;
+.about, .portfolio {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: var(--edgePadding);
+    padding-right: var(--edgePadding);
 }
 
-.content p, .content h2 {
-    display: inline;
+.about .aboutContent, .portfolio .portfolioContent {
+    align-self: end;
+}
+
+.aboutHeading, .portfolioHeading {
+    font-size: 22px;
+    width: 10%;
+}
+
+.aboutContent, .portfolioContent {
+    font-size: 18px;
+    width: 88%;
+}
+
+img {
+    padding: 0px;
+    width: 100%;
 }
 
 footer {
     align-items: center;
     background-color: var(--teal);
     display: flex;
-    height: 75px;
-    margin-top: 120px;
+    font-size: 18px;
+    height: var(--hfHeight);
+    margin-top: 20px;
     width: 100vw;
+}
+
+footer p {
+    font-size: 18px;
+    padding-left: var(--edgePadding);
 }

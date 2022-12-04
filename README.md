@@ -12,4 +12,4 @@ Horiseon: https://stev232.github.io/Horiseon/ <br>
 
 ## GitHub
 
-https://github.com/stev232?tab=repositories
+https://github.com/stev232
