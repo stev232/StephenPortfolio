@@ -14,7 +14,7 @@ body {
     background-color: black;
     display: block;
     margin: 0px;
-    width: 100vw;
+    width: 100%;
 }
 
 header {
@@ -71,8 +71,16 @@ main {
     width: 88%;
 }
 
-img {
-    padding: 0px;
+.personalPicture {
+    padding-top: 5px;
+    width: 25%;
+}
+
+.portfolio {
+    border-top: solid black;
+}
+
+.screenShot {
     width: 100%;
 }
 
@@ -83,7 +91,7 @@ footer {
     font-size: 18px;
     height: var(--hfHeight);
     margin-top: 20px;
-    width: 100vw;
+    width: 100%;
 }
 
 footer p {
