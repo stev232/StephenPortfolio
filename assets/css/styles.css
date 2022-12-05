@@ -68,6 +68,7 @@ main {
 }
 
 .aboutHeading, .portfolioHeading, .contactHeading {
+    border-right: solid black 2px;
     font-size: 22px;
     width: 10%;
 }
@@ -83,10 +84,22 @@ main {
 }
 
 .portfolio, .contact {
+    border-top: solid black 3px;
+}
+
+#imgPreworkSG {
+    width: 100%;
+}
+
+.horiseon {
     border-top: solid black;
 }
 
-.screenShot {
+#imgHoriseon {
+    width: 25%;
+}
+
+.horiseon:hover #imgHoriseon {
     width: 100%;
 }
 
