@@ -88,19 +88,19 @@ main {
 }
 
 #imgPreworkSG {
-    width: 100%;
+    width: 75%;
 }
 
-.horiseon {
+.projects {
     border-top: solid black;
 }
 
-#imgHoriseon {
+.screenShot {
     width: 25%;
 }
 
-.horiseon:hover #imgHoriseon {
-    width: 100%;
+.projects:hover #imgHoriseon, .projects:hover #imgPasswordGen, .projects:hover #imgCodeQuiz {
+    width: 75%;
 }
 
 footer {
