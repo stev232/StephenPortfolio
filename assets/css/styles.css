@@ -124,11 +124,11 @@ footer p {
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 32px;
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     header li {
@@ -156,6 +156,14 @@ footer p {
     .aboutContent, .portfolioContent, .contactContent {
         font-size: 18px;
         width: 100%;
+    }
+
+    .personalPicture, .screenShot {
+        width: 50%;
+    }
+    
+    #imgPreworkSG {
+        width: 95%;
     }
 }
 
