@@ -99,7 +99,7 @@ main {
     width: 25%;
 }
 
-.projects:hover #imgHoriseon, .projects:hover #imgPasswordGen, .projects:hover #imgCodeQuiz {
+.projects:hover #imgHoriseon, .projects:hover #imgPasswordGen, .projects:hover #imgCodeQuiz, .projects:hover #imgColorGrid {
     width: 75%;
 }
 
@@ -181,5 +181,25 @@ footer p {
         align-self: center;
         padding-left: var(--edgePadding);
         padding-right: var(--edgePadding);
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .personalPicture, .screenShot {
+        width: 50%;
+    }
+    
+    #imgPreworkSG {
+        width: 95%;
+    }
+
+    .projects:hover #imgHoriseon, .projects:hover #imgPasswordGen, .projects:hover #imgCodeQuiz, .projects:hover #imgColorGrid {
+        width: 50%;
     }
 }
